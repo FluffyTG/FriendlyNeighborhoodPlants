@@ -1,3 +1,6 @@
 {
-  "item.fluffsstuff.smiletoken": "Smile Token"
+  "item.fluffsstuff.smiletoken": "Smile Token",
+  "item.fluffsstuff.frowntoken": "Frown Token",
+
+  "itemgroup.token": "Token Group"
 }

@@ -7,22 +7,25 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import java.rmi.registry.Registry;
 
 public class ModItems
 {
     public static final Item SMILE_TOKEN = registerItem("smiletoken", new Item(new FabricItemSettings()));
+    public static final Item FROWN_TOKEN = registerItem("frowntoken", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(SMILE_TOKEN);
+        entries.add(FROWN_TOKEN);
     }
 
 
     private static Item registerItem(String name, Item item)
     {
-        return Registry.register(Registries.ITEM, new Identifier((FluffsStuff.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(FluffsStuff.MOD_ID, name), item);
     }
     public static void registerModItems()
     {
