@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fluffsstuff",
+	"version": "${version}",
+	"name": "Fluff's Stuff",
+	"description": "This is a cool mod made by FluffyTG! I add some cool stuff!",
+	"authors": [
+		"FluffyTG"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fluffsstuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fluff.fluffsstuff.FluffsStuff"
+		],
+		"client": [
+			"fluff.fluffsstuff.FluffsStuffClient"
+		],
+		"fabric-datagen": [
+			"fluff.fluffsstuff.FluffsStuffDataGenerator"
+		]
+	},
+	"mixins": [
+		"fluffsstuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
