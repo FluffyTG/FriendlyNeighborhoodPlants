@@ -11,12 +11,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups
 {
-public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FluffsStuff.MOD_ID, "smiletoken"),
+public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GROUP,
+        new Identifier(FluffsStuff.MOD_ID, "smiletoken"),
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.token"))
-                .icon(() -> new ItemStack(ModItems.SMILE_TOKEN)).entries((displayContext, entries) -> {
+                .icon(() -> new ItemStack(ModItems.SMILE_TOKEN)).entries((displayContext, entries) ->
+                {
                     entries.add(ModItems.SMILE_TOKEN);
                     entries.add(ModItems.FROWN_TOKEN);
-}).build());
+                }).build());
     public static void registerItemGroups()
     {
         FluffsStuff.LOGGER.info("Registering Item Groups for " + FluffsStuff.MOD_ID);
