@@ -1,5 +1,6 @@
 package fluff.fluffsstuff;
 
+import fluff.fluffsstuff.block.ModBlocks;
 import fluff.fluffsstuff.item.ModItemGroups;
 import fluff.fluffsstuff.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class FluffsStuff implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

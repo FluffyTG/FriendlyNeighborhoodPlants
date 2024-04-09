@@ -2,5 +2,8 @@
   "item.fluffsstuff.smiletoken": "Smile Token",
   "item.fluffsstuff.frowntoken": "Frown Token",
 
+  "block.fluffsstuff.token_block": "Token Block",
+  "block.fluffsstuff.sapphire_gem": "Sapphire Gem",
+
   "itemgroup.token": "Token Group"
 }

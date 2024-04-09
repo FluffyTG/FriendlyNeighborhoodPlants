@@ -1,6 +1,7 @@
 package fluff.fluffsstuff.item;
 
 import fluff.fluffsstuff.FluffsStuff;
+import fluff.fluffsstuff.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,6 +19,9 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                 {
                     entries.add(ModItems.SMILE_TOKEN);
                     entries.add(ModItems.FROWN_TOKEN);
+
+                    entries.add(ModBlocks.TOKEN_BLOCK);
+                    entries.add(ModBlocks.SAPPHIRE_GEM);
                 }).build());
     public static void registerItemGroups()
     {
