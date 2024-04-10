@@ -15,11 +15,13 @@ public class ModItems
 {
     public static final Item SMILE_TOKEN = registerItem("smiletoken", new Item(new FabricItemSettings()));
     public static final Item FROWN_TOKEN = registerItem("frowntoken", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(SMILE_TOKEN);
         entries.add(FROWN_TOKEN);
+        entries.add(SAPPHIRE);
     }
 
 
