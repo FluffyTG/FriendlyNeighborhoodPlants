@@ -19,6 +19,8 @@ public class ModBlocks
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static  final Block SAPPHIRE_GEM = registerBlock("sapphire_gem",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static  final Block CHARRED_LOG = registerBlock("charred_log",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
