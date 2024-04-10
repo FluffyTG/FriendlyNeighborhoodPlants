@@ -24,7 +24,7 @@ public class ModBlocks
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static final Block CHARRED_LOG = registerBlock("charred_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.WOOD)));
-    public static final Block CHARRED_LOG_NEW = registerBlock("charred_log_new",
+    public static final Block CHARRED_LOG_STRIPPED = registerBlock("charred_log_stripped",
             new PillarBlock(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.WOOD)));
     private static Block registerBlock(String name, Block block)
     {
