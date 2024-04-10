@@ -20,7 +20,7 @@ public class ModBlocks
 {
     public static  final Block TOKEN_BLOCK = registerBlock("token_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
-    public static  final Block SAPPHIRE_GEM = registerBlock("sapphire_gem",
+    public static  final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static final Block CHARRED_LOG = registerBlock("charred_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.WOOD)));

@@ -21,7 +21,7 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModItems.FROWN_TOKEN);
 
                     entries.add(ModBlocks.TOKEN_BLOCK);
-                    entries.add(ModBlocks.SAPPHIRE_GEM);
+                    entries.add(ModBlocks.SAPPHIRE_ORE);
                     entries.add(ModBlocks.CHARRED_LOG);
                     entries.add(ModBlocks.CHARRED_LOG_STRIPPED);
                 }).build());
