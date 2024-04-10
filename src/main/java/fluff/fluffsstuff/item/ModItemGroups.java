@@ -14,7 +14,7 @@ public class ModItemGroups
 {
 public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GROUP,
         new Identifier(FluffsStuff.MOD_ID, "smiletoken"),
-        FabricItemGroup.builder().displayName(Text.translatable("itemgroup.token"))
+        FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fluffsstuff"))
                 .icon(() -> new ItemStack(ModItems.SMILE_TOKEN)).entries((displayContext, entries) ->
                 {
                     entries.add(ModItems.SMILE_TOKEN);
@@ -23,7 +23,7 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModBlocks.TOKEN_BLOCK);
                     entries.add(ModBlocks.SAPPHIRE_GEM);
                     entries.add(ModBlocks.CHARRED_LOG);
-                    entries.add(ModBlocks.CHARRED_LOG_NEW);
+                    entries.add(ModBlocks.CHARRED_LOG_STRIPPED);
                 }).build());
     public static void registerItemGroups()
     {
