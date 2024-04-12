@@ -19,6 +19,10 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                 {
                     entries.add(ModItems.SMILE_TOKEN);
                     entries.add(ModItems.FROWN_TOKEN);
+                    entries.add(ModItems.SAPPHIRE);
+                    entries.add(ModItems.TOBACCO_SEEDS);
+                    entries.add(ModItems.TOBACCO_LEAF);
+                    entries.add(ModItems.SAPPHIRE_HEAD_PICK);
 
                     entries.add(ModBlocks.TOKEN_BLOCK);
                     entries.add(ModBlocks.SAPPHIRE_ORE);

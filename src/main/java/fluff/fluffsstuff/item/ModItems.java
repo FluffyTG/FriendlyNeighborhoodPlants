@@ -1,9 +1,11 @@
 package fluff.fluffsstuff.item;
 
 import fluff.fluffsstuff.FluffsStuff;
+import fluff.fluffsstuff.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -16,12 +18,18 @@ public class ModItems
     public static final Item SMILE_TOKEN = registerItem("smiletoken", new Item(new FabricItemSettings()));
     public static final Item FROWN_TOKEN = registerItem("frowntoken", new Item(new FabricItemSettings()));
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_HEAD_PICK = registerItem("sapphire_head_pick", new Item(new FabricItemSettings()));
+    public static final Item TOBACCO_SEEDS = registerItem("tobacco_seeds", new AliasedBlockItem(ModBlocks.TOBACCO_CROP, new FabricItemSettings()));
+    public static final Item TOBACCO_LEAF = registerItem("tobacco_leaf", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(SMILE_TOKEN);
         entries.add(FROWN_TOKEN);
         entries.add(SAPPHIRE);
+        entries.add(SAPPHIRE_HEAD_PICK);
+        entries.add(TOBACCO_LEAF);
+        entries.add(TOBACCO_SEEDS);
     }
 
 

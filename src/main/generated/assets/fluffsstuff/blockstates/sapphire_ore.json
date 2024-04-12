@@ -1,8 +1,6 @@
 {
-  "variants":
-  {
-    "":
-    {
+  "variants": {
+    "": {
       "model": "fluffsstuff:block/sapphire_ore"
     }
   }

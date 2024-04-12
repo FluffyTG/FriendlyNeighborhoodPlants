@@ -1,8 +1,6 @@
 {
-  "variants":
-  {
-    "":
-    {
+  "variants": {
+    "": {
       "model": "fluffsstuff:block/token_block"
     }
   }
