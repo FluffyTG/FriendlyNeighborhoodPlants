@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TOKEN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_BLOCK);
 
         blockStateModelGenerator.registerCrop(ModBlocks.TOBACCO_CROP, TobaccoCropBlock.AGE, 0,1,2,3,4);
     }
@@ -29,5 +30,6 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SMILE_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOBACCO_LEAF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOBACCO_LEAF_CURED, Models.GENERATED);
     }
 }

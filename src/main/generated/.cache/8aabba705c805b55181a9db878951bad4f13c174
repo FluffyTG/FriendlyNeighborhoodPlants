@@ -1,5 +1,6 @@
-// 1.20.1	2024-04-12T04:40:49.4786349	Fluff's Stuff/Model Definitions
+// 1.20.1	2024-04-12T05:39:37.6133692	Fluff's Stuff/Model Definitions
 be9c67744855c854e1e67eb92c5a269f9717456d assets\fluffsstuff\models\block\tobacco_crop_stage4.json
+b29c61a749a10af30aaec08ba4895397e956a405 assets\fluffsstuff\models\item\sapphire_block.json
 9e73498395b74b8083560a06e5bd00de462020cd assets\fluffsstuff\models\item\sapphire.json
 6b8bc6d2302e82c35a2e5147a7850647b02c3131 assets\fluffsstuff\blockstates\sapphire_ore.json
 94a95ed633a01babfd97a1416ed6a16fcb8a43f7 assets\fluffsstuff\models\item\token_block.json
@@ -8,10 +9,13 @@ d85089476e37cf7e095934485cca76d0e832eeac assets\fluffsstuff\models\block\tobacco
 2af19f843625c25557af674bd8e3ee4900f4a197 assets\fluffsstuff\models\item\tobacco_seeds.json
 9005414899c783b64e59c1c2423317225f3b0798 assets\fluffsstuff\models\block\sapphire_ore.json
 b558e6c6384be5a9b72b9e6f475fbae5a464f826 assets\fluffsstuff\models\item\tobacco_leaf.json
-4bade7ca4f121bbefc01bea3b9bcb60d0a7b42cc assets\fluffsstuff\models\item\sapphire_ore.json
+2f7fc5eba1dc3c3084a4f54a54520d24eed35719 assets\fluffsstuff\blockstates\sapphire_block.json
 8850cba39652ff5d0442d08cbf2c33d2db15b350 assets\fluffsstuff\models\item\smiletoken.json
+4bade7ca4f121bbefc01bea3b9bcb60d0a7b42cc assets\fluffsstuff\models\item\sapphire_ore.json
 5424d95f80b84d9b1e98d1a38dd5e8738448058e assets\fluffsstuff\models\block\tobacco_crop_stage3.json
 e8f70e0c0b30aac9d0d0029dc3b0fab17bc6cffe assets\fluffsstuff\blockstates\token_block.json
 0a71e4daf9a0d61b0e673aecba996915d9fa3640 assets\fluffsstuff\models\block\token_block.json
+13c5a685ed9490aa780d4a1f8d3826d79aae034c assets\fluffsstuff\models\block\sapphire_block.json
 8b0c5d8959015f389170792688c6a2c97c489012 assets\fluffsstuff\blockstates\tobacco_crop.json
+657026a48355dd6e4daeabd2906ca714fbc98788 assets\fluffsstuff\models\item\tobacco_leaf_cured.json
 6f56a0be30f3d723819bba6125cdc47c0e02081a assets\fluffsstuff\models\block\tobacco_crop_stage1.json

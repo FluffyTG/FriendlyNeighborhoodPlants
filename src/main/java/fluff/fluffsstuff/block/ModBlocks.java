@@ -24,6 +24,8 @@ public class ModBlocks
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static  final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).strength(6.9f), UniformIntProvider.create(5,10)));
+    public static  final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static final Block CHARRED_LOG = registerBlock("charred_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.WOOD)));
     public static final Block CHARRED_LOG_STRIPPED = registerBlock("charred_log_stripped",

@@ -21,6 +21,7 @@ public class ModItems
     public static final Item SAPPHIRE_HEAD_PICK = registerItem("sapphire_head_pick", new Item(new FabricItemSettings()));
     public static final Item TOBACCO_SEEDS = registerItem("tobacco_seeds", new AliasedBlockItem(ModBlocks.TOBACCO_CROP, new FabricItemSettings()));
     public static final Item TOBACCO_LEAF = registerItem("tobacco_leaf", new Item(new FabricItemSettings()));
+    public static final Item TOBACCO_LEAF_CURED = registerItem("tobacco_leaf_cured", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)
     {
@@ -29,6 +30,7 @@ public class ModItems
         entries.add(SAPPHIRE);
         entries.add(SAPPHIRE_HEAD_PICK);
         entries.add(TOBACCO_LEAF);
+        entries.add(TOBACCO_LEAF_CURED);
         entries.add(TOBACCO_SEEDS);
     }
 
