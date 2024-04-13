@@ -1,6 +1,7 @@
 package fluff.fluffsstuff.block;
 
 import fluff.fluffsstuff.FluffsStuff;
+import fluff.fluffsstuff.block.custom.CannabisCropBlock;
 import fluff.fluffsstuff.block.custom.TobaccoCropBlock;
 import it.unimi.dsi.fastutil.floats.Float2FloatFunction;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
@@ -31,8 +32,10 @@ public class ModBlocks
     public static final Block CHARRED_LOG_STRIPPED = registerBlock("charred_log_stripped",
             new PillarBlock(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.WOOD)));
 
-public static final Block TOBACCO_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "tobacco_crop"),
+    public static final Block TOBACCO_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "tobacco_crop"),
         new TobaccoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static final Block CANNABIS_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "cannabis_crop"),
+            new CannabisCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT).requiresTool().strength(4f,10f)));
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);

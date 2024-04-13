@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "crop": "fluffsstuff:block/tobacco_crop_stage4"
+    "cross": "fluffsstuff:block/tobacco_crop_stage4"
   }
 }

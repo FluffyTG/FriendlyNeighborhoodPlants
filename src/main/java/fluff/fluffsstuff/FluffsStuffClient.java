@@ -9,5 +9,6 @@ public class FluffsStuffClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TOBACCO_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CANNABIS_CROP, RenderLayer.getCutout());
     }
 }

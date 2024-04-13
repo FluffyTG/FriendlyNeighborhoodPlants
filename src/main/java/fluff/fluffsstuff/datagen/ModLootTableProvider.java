@@ -1,6 +1,7 @@
 package fluff.fluffsstuff.datagen;
 
 import fluff.fluffsstuff.block.ModBlocks;
+import fluff.fluffsstuff.block.custom.CannabisCropBlock;
 import fluff.fluffsstuff.block.custom.TobaccoCropBlock;
 import fluff.fluffsstuff.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -34,6 +35,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 (ModBlocks.TOBACCO_CROP).properties((StatePredicate.Builder.create()
                 .exactMatch(TobaccoCropBlock.AGE, 4)));
         addDrop(ModBlocks.TOBACCO_CROP,cropDrops(ModBlocks.TOBACCO_CROP,ModItems.TOBACCO_LEAF, ModItems.TOBACCO_SEEDS, builder));
+
+        BlockStatePropertyLootCondition.Builder builder1 = BlockStatePropertyLootCondition.builder
+                (ModBlocks.CANNABIS_CROP).properties((StatePredicate.Builder.create()
+                .exactMatch(CannabisCropBlock.AGE, 5)));
+        addDrop(ModBlocks.CANNABIS_CROP,cropDrops(ModBlocks.CANNABIS_CROP,ModItems.CANNABIS, ModItems.CANNABIS_SEEDS, builder1));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item, float min, float max) {
