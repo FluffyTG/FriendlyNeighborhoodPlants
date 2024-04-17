@@ -2,6 +2,8 @@ package fluff.fluffsstuff.item;
 
 import fluff.fluffsstuff.FluffsStuff;
 import fluff.fluffsstuff.block.ModBlocks;
+import fluff.fluffsstuff.item.custom.CrushedTobaccoItem;
+import fluff.fluffsstuff.item.custom.DriedTobaccoLeafItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -22,10 +24,13 @@ public class ModItems
     public static final Item SAPPHIRE_HEAD_PICK = registerItem("sapphire_head_pick", new Item(new FabricItemSettings()));
     public static final Item TOBACCO_SEEDS = registerItem("tobacco_seeds", new AliasedBlockItem(ModBlocks.TOBACCO_CROP, new FabricItemSettings()));
     public static final Item TOBACCO_LEAF = registerItem("tobacco_leaf", new Item(new FabricItemSettings()));
-    public static final Item TOBACCO_LEAF_CURED = registerItem("tobacco_leaf_cured", new Item(new FabricItemSettings()));
+    public static final Item TOBACCO_LEAF_CURED = registerItem("tobacco_leaf_cured", new DriedTobaccoLeafItem(new FabricItemSettings()));
+    public static final Item MOIST_TOBACCO_LEAF_CURED = registerItem("moist_tobacco_leaf_cured", new CrushedTobaccoItem(new FabricItemSettings()));
+    public static final Item CRUSHED_TOBACCO = registerItem("crushed_tobacco", new Item(new FabricItemSettings()));
 
     public static final Item CANNABIS_SEEDS = registerItem("cannabis_seeds", new AliasedBlockItem(ModBlocks.CANNABIS_CROP, new FabricItemSettings()));
     public static final Item CANNABIS = registerItem("cannabis", new Item(new FabricItemSettings()));
+    public static final Item COOKIE = registerItem("cookie", new Item(new FabricItemSettings().food(ModFoodComponents.COOKIE)));
 
 
     public static final Item SAPPHIRE_TEMP_PICK = registerItem("sapphire_temppick",

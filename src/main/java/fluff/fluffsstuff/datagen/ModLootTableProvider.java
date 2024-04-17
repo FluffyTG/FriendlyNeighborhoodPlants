@@ -30,11 +30,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.TOKEN_BLOCK);
         addDrop(ModBlocks.SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,2));
-
-        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder
-                (ModBlocks.TOBACCO_CROP).properties((StatePredicate.Builder.create()
-                .exactMatch(TobaccoCropBlock.AGE, 4)));
-        addDrop(ModBlocks.TOBACCO_CROP,cropDrops(ModBlocks.TOBACCO_CROP,ModItems.TOBACCO_LEAF, ModItems.TOBACCO_SEEDS, builder));
+        addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,3));
+        addDrop(ModBlocks.TOBACCO_FLOWER);
+        addPottedPlantDrops(ModBlocks.POTTED_TOBACCO_FLOWER);
 
         BlockStatePropertyLootCondition.Builder builder1 = BlockStatePropertyLootCondition.builder
                 (ModBlocks.CANNABIS_CROP).properties((StatePredicate.Builder.create()

@@ -6,6 +6,8 @@
   "item.fluffsstuff.tobacco_seeds": "Tobacco Seeds",
   "item.fluffsstuff.tobacco_leaf": "Tobacco Leaf",
   "item.fluffsstuff.tobacco_leaf_cured": "Cured Tobacco Leaf",
+  "item.fluffsstuff.moist_tobacco_leaf_cured": "Moist Cured Tobacco Leaf",
+  "item.fluffsstuff.crushed_tobacco": "Crushed Tobacco",
   "item.fluffsstuff.cannabis": "Cannabis",
   "item.fluffsstuff.cannabis_seeds": "Cannabis Seeds",
   "item.fluffsstuff.sapphire_temppick": "Sapphire Temp Pick",
@@ -13,8 +15,11 @@
 
   "block.fluffsstuff.token_block": "Token Block",
   "block.fluffsstuff.sapphire_ore": "Sapphire Ore",
+  "block.fluffsstuff.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.fluffsstuff.sapphire_block": "Sapphire Block",
   "block.fluffsstuff.charred_log": "Charred Log",
   "block.fluffsstuff.charred_log_stripped": "Stripped Charred Log",
+  "block.fluffsstuff.tobacco_flower": "Tobacco Flower",
 
   "itemgroup.fluffsstuff": "Fluff's Stuff!"
 }

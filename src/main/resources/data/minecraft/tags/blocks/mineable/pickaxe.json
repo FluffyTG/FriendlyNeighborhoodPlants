@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "fluffsstuff:sapphire_ore",
-    "fluffsstuff:token_block"
+    "fluffsstuff:token_block",
+    "fluffsstuff:deepslate_sapphire_ore"
   ]
 }

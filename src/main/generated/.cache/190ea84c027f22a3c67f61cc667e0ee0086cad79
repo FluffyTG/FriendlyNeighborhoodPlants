@@ -1,5 +1,7 @@
-// 1.20.1	2024-04-12T20:04:52.348199	Fluff's Stuff/Block Loot Tables
+// 1.20.1	2024-04-16T17:52:40.7705752	Fluff's Stuff/Block Loot Tables
+59316779dd7a453be92a70458a64bac163325bf9 data\fluffsstuff\loot_tables\blocks\deepslate_sapphire_ore.json
+c13a0afa6806866dfef9462cf389af1361d4ab09 data\fluffsstuff\loot_tables\blocks\potted_tobacco_flower.json
 133c55182eb4a4f6ccef85b449037aac1f8de9b2 data\fluffsstuff\loot_tables\blocks\cannabis_crop.json
-421eb2188eefe3d3adfff6f39927083f455a4ce9 data\fluffsstuff\loot_tables\blocks\tobacco_crop.json
 3478ba3ed2046e280a6f1d99656f787a167babde data\fluffsstuff\loot_tables\blocks\token_block.json
 2057fe976d0d3afa885c53ae71a9e1d9a707d644 data\fluffsstuff\loot_tables\blocks\sapphire_ore.json
+abcae5d33d490c3a177736dc11bf3a1b87159262 data\fluffsstuff\loot_tables\blocks\tobacco_flower.json

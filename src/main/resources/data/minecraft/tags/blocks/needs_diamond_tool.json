@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fluffsstuff:sapphire_ore"
+    "fluffsstuff:sapphire_ore",
+    "fluffsstuff:deepslate_sapphire_ore"
   ]
 }

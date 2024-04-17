@@ -20,11 +20,15 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TOKEN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_BLOCK);
 
-        blockStateModelGenerator.registerCrop(ModBlocks.TOBACCO_CROP, TobaccoCropBlock.AGE, 0,1,2,3,4);
-        blockStateModelGenerator.registerCrop(ModBlocks.CANNABIS_CROP, CannabisCropBlock.AGE, 0,1,2,3,4,5);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.TOBACCO_FLOWER, ModBlocks.POTTED_TOBACCO_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        // not used due to
+        //blockStateModelGenerator.registerCrop(ModBlocks.TOBACCO_CROP, TobaccoCropBlock.AGE, 0,1,2,3,4);
+        //blockStateModelGenerator.registerCrop(ModBlocks.CANNABIS_CROP, CannabisCropBlock.AGE, 0,1,2,3,4,5);
     }
 
     @Override
@@ -34,6 +38,9 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.TOBACCO_LEAF, Models.GENERATED);
         itemModelGenerator.register(ModItems.CANNABIS, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOBACCO_LEAF_CURED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOIST_TOBACCO_LEAF_CURED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRUSHED_TOBACCO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKIE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAPPHIRE_TEMP_PICK, Models.HANDHELD);
     }
 }
