@@ -37,8 +37,11 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModItems.CANNABIS);
                     entries.add(ModItems.COOKIE);
 
-                    entries.add(ModItems.TOMATO);
                     entries.add(ModItems.TOMATO_SEEDS);
+                    entries.add(ModItems.TOMATO);
+
+                    entries.add(ModItems.CORN_SEEDS);
+                    entries.add(ModItems.CORN);
 
                     entries.add(ModItems.SAPPHIRE_HEAD_PICK);
                     entries.add(ModItems.SAPPHIRE_TEMP_PICK);

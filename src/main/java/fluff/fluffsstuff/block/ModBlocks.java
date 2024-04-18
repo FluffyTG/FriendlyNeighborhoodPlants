@@ -2,6 +2,7 @@ package fluff.fluffsstuff.block;
 
 import fluff.fluffsstuff.FluffsStuff;
 import fluff.fluffsstuff.block.custom.CannabisCropBlock;
+import fluff.fluffsstuff.block.custom.CornCropBlock;
 import fluff.fluffsstuff.block.custom.TobaccoCropBlock;
 import fluff.fluffsstuff.block.custom.TomatoCropBlock;
 import it.unimi.dsi.fastutil.floats.Float2FloatFunction;
@@ -48,6 +49,9 @@ public class ModBlocks
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
