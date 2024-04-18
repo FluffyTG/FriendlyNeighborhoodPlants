@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-16T17:52:40.7705752	Fluff's Stuff/Model Definitions
+// 1.20.1	2024-04-17T23:54:25.5000597	Fluff's Stuff/Model Definitions
 b29c61a749a10af30aaec08ba4895397e956a405 assets\fluffsstuff\models\item\sapphire_block.json
 c4d6287fca31fec831f012094461625bca10e867 assets\fluffsstuff\models\item\tobacco_flower.json
 9e73498395b74b8083560a06e5bd00de462020cd assets\fluffsstuff\models\item\sapphire.json
@@ -19,9 +19,11 @@ c9a25668d78f2e85130f3abceb29e54d15465e49 assets\fluffsstuff\models\item\deepslat
 ef7881a3675a8d0bf56471b363681f3b5292fac2 assets\fluffsstuff\models\item\crushed_tobacco.json
 6b8bc6d2302e82c35a2e5147a7850647b02c3131 assets\fluffsstuff\blockstates\sapphire_ore.json
 d09f692a1da4c88039c8bf78137f3cb53acd6a2f assets\fluffsstuff\models\item\moist_tobacco_leaf_cured.json
+9db0f7acbac6f9c3fbf126be1dcef7dbe6c12256 assets\fluffsstuff\models\item\tomato.json
 b558e6c6384be5a9b72b9e6f475fbae5a464f826 assets\fluffsstuff\models\item\tobacco_leaf.json
 2f7fc5eba1dc3c3084a4f54a54520d24eed35719 assets\fluffsstuff\blockstates\sapphire_block.json
 4ffc8b80da7feeec5f45e863d7f8f4771a896f98 assets\fluffsstuff\blockstates\potted_tobacco_flower.json
 4bade7ca4f121bbefc01bea3b9bcb60d0a7b42cc assets\fluffsstuff\models\item\sapphire_ore.json
+ca0970d197b2911fad61c31bd26018e07f300720 assets\fluffsstuff\models\item\tobacco_stick.json
 68ca6eb8aba9f596088faf0cae16602183d5a16c assets\fluffsstuff\models\block\tobacco_flower.json
 269590d0af69617401d53f5b3b609b87e0c44038 assets\fluffsstuff\models\block\potted_tobacco_flower.json

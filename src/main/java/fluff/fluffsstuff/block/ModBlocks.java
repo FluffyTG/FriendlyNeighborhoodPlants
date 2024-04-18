@@ -3,6 +3,7 @@ package fluff.fluffsstuff.block;
 import fluff.fluffsstuff.FluffsStuff;
 import fluff.fluffsstuff.block.custom.CannabisCropBlock;
 import fluff.fluffsstuff.block.custom.TobaccoCropBlock;
+import fluff.fluffsstuff.block.custom.TomatoCropBlock;
 import it.unimi.dsi.fastutil.floats.Float2FloatFunction;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -44,6 +45,9 @@ public class ModBlocks
             new FlowerPotBlock(TOBACCO_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
     public static final Block CANNABIS_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "cannabis_crop"),
             new CannabisCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT).requiresTool().strength(4f,10f)));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(FluffsStuff.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);

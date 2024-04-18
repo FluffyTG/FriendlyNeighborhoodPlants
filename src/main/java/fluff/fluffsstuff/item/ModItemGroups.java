@@ -19,18 +19,32 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                 {
                     entries.add(ModItems.SMILE_TOKEN);
                     entries.add(ModItems.FROWN_TOKEN);
-                    entries.add(ModItems.SAPPHIRE);
-                    entries.add(ModItems.TOBACCO_SEEDS);
-                    entries.add(ModItems.TOBACCO_LEAF);
-                    entries.add(ModItems.CANNABIS_SEEDS);
-                    entries.add(ModItems.CANNABIS);
-                    entries.add(ModItems.SAPPHIRE_HEAD_PICK);
-                    entries.add(ModItems.SAPPHIRE_TEMP_PICK);
-
                     entries.add(ModBlocks.TOKEN_BLOCK);
+
+                    entries.add(ModItems.SAPPHIRE);
                     entries.add(ModBlocks.SAPPHIRE_ORE);
                     entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                     entries.add(ModBlocks.SAPPHIRE_BLOCK);
+
+                    entries.add(ModItems.TOBACCO_SEEDS);
+                    entries.add(ModItems.TOBACCO_LEAF);
+                    entries.add(ModItems.TOBACCO_LEAF_CURED);
+                    entries.add(ModItems.MOIST_TOBACCO_LEAF_CURED);
+                    entries.add(ModItems.CRUSHED_TOBACCO);
+                    entries.add(ModItems.TOBACCO_STICK);
+
+                    entries.add(ModItems.CANNABIS_SEEDS);
+                    entries.add(ModItems.CANNABIS);
+                    entries.add(ModItems.COOKIE);
+
+                    entries.add(ModItems.TOMATO);
+                    entries.add(ModItems.TOMATO_SEEDS);
+
+                    entries.add(ModItems.SAPPHIRE_HEAD_PICK);
+                    entries.add(ModItems.SAPPHIRE_TEMP_PICK);
+
+
+
                     entries.add(ModBlocks.CHARRED_LOG);
                     entries.add(ModBlocks.CHARRED_LOG_STRIPPED);
                 }).build());
