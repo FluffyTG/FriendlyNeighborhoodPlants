@@ -7,7 +7,6 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
-import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
@@ -55,9 +54,9 @@ public class TobaccoCropBlock extends CropBlock
                             world.setBlockState(pos.up(1), this.withAge(currentAge + 1), 2);
                         } else if (world.getBlockState(pos.up(1)).isOf(ModBlocks.TOBACCO_CROP)) {
 
-                        } else {
-                            world.setBlockState(pos, this.withAge(currentAge + 1), 2);
                         }
+                    } else {
+                        world.setBlockState(pos, this.withAge(currentAge + 1), 2);
                     }
                 }
             }
