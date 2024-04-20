@@ -1,4 +1,4 @@
-package fluff.fluffsstuff.block.custom;
+package fluff.fluffsstuff.block.custom.ModCrops;
 
 import fluff.fluffsstuff.item.ModItems;
 import net.minecraft.block.Block;

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fluffsstuff:block/charred_sapling"
+  }
+}

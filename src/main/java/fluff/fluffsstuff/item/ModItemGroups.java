@@ -26,6 +26,8 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                     entries.add(ModBlocks.SAPPHIRE_BLOCK);
 
+                    entries.add(ModBlocks.TRELLIS);
+
                     entries.add(ModItems.TOBACCO_SEEDS);
                     entries.add(ModItems.TOBACCO_LEAF);
                     entries.add(ModItems.TOBACCO_LEAF_CURED);
@@ -40,6 +42,9 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModItems.TOMATO_SEEDS);
                     entries.add(ModItems.TOMATO);
 
+                    entries.add(ModItems.STRAWBERRY_SEEDS);
+                    entries.add(ModItems.STRAWBERRY);
+
                     entries.add(ModItems.CORN_SEEDS);
                     entries.add(ModItems.CORN);
 
@@ -47,9 +52,13 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModItems.SAPPHIRE_TEMP_PICK);
 
 
-
+                    entries.add(ModBlocks.CHARRED_SAPLING);
                     entries.add(ModBlocks.CHARRED_LOG);
+                    entries.add(ModBlocks.CHARRED_WOOD);
                     entries.add(ModBlocks.CHARRED_LOG_STRIPPED);
+                    entries.add(ModBlocks.CHARRED_WOOD_STRIPPED);
+                    entries.add(ModBlocks.CHARRED_PLANKS);
+                    entries.add(ModBlocks.CHARRED_LEAVES);
                 }).build());
     public static void registerItemGroups()
     {

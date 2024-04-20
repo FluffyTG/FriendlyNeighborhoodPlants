@@ -34,6 +34,12 @@ public class ModItems
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings()));
 
+    public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds", new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP, new FabricItemSettings()));
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings()));
+
+    public static final Item HOPS_SEEDS = registerItem("hops_seeds", new AliasedBlockItem(ModBlocks.HOPS_CROP, new FabricItemSettings()));
+    public static final Item HOPS = registerItem("hops", new Item(new FabricItemSettings()));
+
     public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn", new Item(new FabricItemSettings()));
 

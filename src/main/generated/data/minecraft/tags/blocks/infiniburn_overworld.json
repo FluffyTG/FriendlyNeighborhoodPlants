@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fluffsstuff:charred_planks",
+    "fluffsstuff:charred_log",
+    "fluffsstuff:charred_log_stripped",
+    "fluffsstuff:charred_wood",
+    "fluffsstuff:charred_wood_stripped"
+  ]
+}

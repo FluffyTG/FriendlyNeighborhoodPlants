@@ -1,9 +1,10 @@
 package fluff.fluffsstuff.datagen;
 
 import fluff.fluffsstuff.block.ModBlocks;
-import fluff.fluffsstuff.block.custom.CannabisCropBlock;
-import fluff.fluffsstuff.block.custom.TobaccoCropBlock;
-import fluff.fluffsstuff.block.custom.TomatoCropBlock;
+import fluff.fluffsstuff.block.custom.ModCrops.CannabisCropBlock;
+import fluff.fluffsstuff.block.custom.ModCrops.HopsCropBlock;
+import fluff.fluffsstuff.block.custom.ModCrops.StrawberryCropBlock;
+import fluff.fluffsstuff.block.custom.ModCrops.TomatoCropBlock;
 import fluff.fluffsstuff.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -11,7 +12,6 @@ import net.minecraft.block.Block;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
@@ -33,6 +33,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,2));
         addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,3));
         addDrop(ModBlocks.TOBACCO_FLOWER);
+        addDrop(ModBlocks.TRELLIS);
         addPottedPlantDrops(ModBlocks.POTTED_TOBACCO_FLOWER);
 
         BlockStatePropertyLootCondition.Builder builder1 = BlockStatePropertyLootCondition.builder
@@ -49,6 +50,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 (ModBlocks.CORN_CROP).properties((StatePredicate.Builder.create()
                 .exactMatch(TomatoCropBlock.AGE, 6)));
         addDrop(ModBlocks.CORN_CROP,cropDrops(ModBlocks.CORN_CROP,ModItems.CORN, ModItems.CORN_SEEDS, builder3));
+
+        BlockStatePropertyLootCondition.Builder builder4 = BlockStatePropertyLootCondition.builder
+                (ModBlocks.STRAWBERRY_CROP).properties((StatePredicate.Builder.create()
+                .exactMatch(StrawberryCropBlock.AGE, 5)));
+        addDrop(ModBlocks.STRAWBERRY_CROP,cropDrops(ModBlocks.STRAWBERRY_CROP,ModItems.STRAWBERRY, ModItems.STRAWBERRY_SEEDS, builder4));
+
+        BlockStatePropertyLootCondition.Builder builder5 = BlockStatePropertyLootCondition.builder
+                (ModBlocks.HOPS_CROP).properties((StatePredicate.Builder.create()
+                .exactMatch(HopsCropBlock.AGE, 8)));
+        addDrop(ModBlocks.HOPS_CROP,cropDrops(ModBlocks.HOPS_CROP,ModItems.HOPS, ModItems.HOPS_SEEDS, builder5));
+
+
+        addDrop(ModBlocks.CHARRED_WOOD_STRIPPED);
+        addDrop(ModBlocks.CHARRED_WOOD);
+        addDrop(ModBlocks.CHARRED_PLANKS);
+        addDrop(ModBlocks.CHARRED_LEAVES, leavesDrops(ModBlocks.CHARRED_LEAVES, ModBlocks.CHARRED_SAPLING, 0.0025f));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item, float min, float max) {

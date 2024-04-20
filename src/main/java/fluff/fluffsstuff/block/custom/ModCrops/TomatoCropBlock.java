@@ -1,11 +1,8 @@
-package fluff.fluffsstuff.block.custom;
+package fluff.fluffsstuff.block.custom.ModCrops;
 
 import fluff.fluffsstuff.item.ModItems;
 import fluff.fluffsstuff.util.ModTags;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.CropBlock;
+import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemConvertible;
@@ -20,6 +17,8 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
@@ -29,6 +28,19 @@ public class TomatoCropBlock extends CropBlock
 {
     public static final int MAX_AGE = 5;
     public static final IntProperty AGE = Properties.AGE_5;
+
+    private static final VoxelShape[] AGE_TO_SHAPE = new VoxelShape[]{
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 4.0, 13.0),
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 6.0, 13.0),
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 10.0, 13.0),
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 14.0, 13.0),
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 14.0, 13.0),
+            Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 14.0, 13.0)};
+
+    @Override
+    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return AGE_TO_SHAPE[this.getAge(state)];
+    }
 
     public TomatoCropBlock(Settings settings) {
         super(settings);
