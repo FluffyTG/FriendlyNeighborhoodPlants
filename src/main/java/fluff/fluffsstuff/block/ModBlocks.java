@@ -3,6 +3,10 @@ package fluff.fluffsstuff.block;
 import fluff.fluffsstuff.FluffsStuff;
 import fluff.fluffsstuff.block.custom.*;
 import fluff.fluffsstuff.block.custom.ModCrops.*;
+import fluff.fluffsstuff.block.custom.ModSaplings.ModEndSapling;
+import fluff.fluffsstuff.block.custom.ModSpecialBlocks.DenseOreBlock;
+import fluff.fluffsstuff.block.custom.ModSpecialBlocks.DenseOres.DenseDeepslateDiamond;
+import fluff.fluffsstuff.block.custom.ModSpecialBlocks.DenseOres.DenseStoneDiamond;
 import fluff.fluffsstuff.world.tree.CharredSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -30,6 +34,11 @@ public class ModBlocks
     public static  final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
+    public static  final Block DENSE_DIAMOND_ORE = registerBlock("dense_diamond_ore",
+            new DenseStoneDiamond(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(10.10f), UniformIntProvider.create(10,19)));
+    public static  final Block DENSE_DEEPSLATE_DIAMOND_ORE = registerBlock("dense_deepslate_diamond_ore",
+            new DenseDeepslateDiamond(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).strength(12.12f), UniformIntProvider.create(14,25)));
+
 
 
     public static final Block CHARRED_LOG = registerBlock("charred_log",
@@ -45,7 +54,7 @@ public class ModBlocks
     public static  final Block CHARRED_LEAVES = registerBlock("charred_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
     public static  final Block CHARRED_SAPLING = registerBlock("charred_sapling",
-            new SaplingBlock(new CharredSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+            new ModEndSapling(new CharredSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
 
 

@@ -3,6 +3,8 @@
   "values": [
     "fluffsstuff:sapphire_ore",
     "fluffsstuff:token_block",
-    "fluffsstuff:deepslate_sapphire_ore"
+    "fluffsstuff:deepslate_sapphire_ore",
+    "fluffsstuff:dense_diamond_ore",
+    "fluffsstuff:dense_deepslate_diamond_ore"
   ]
 }

@@ -26,6 +26,9 @@ public static final ItemGroup TOKEN_GROUP = Registry.register(Registries.ITEM_GR
                     entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                     entries.add(ModBlocks.SAPPHIRE_BLOCK);
 
+                    entries.add(ModBlocks.DENSE_DEEPSLATE_DIAMOND_ORE);
+                    entries.add(ModBlocks.DENSE_DIAMOND_ORE);
+
                     entries.add(ModBlocks.TRELLIS);
 
                     entries.add(ModItems.TOBACCO_SEEDS);

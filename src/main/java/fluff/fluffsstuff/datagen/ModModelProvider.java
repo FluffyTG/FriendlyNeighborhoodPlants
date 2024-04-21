@@ -22,6 +22,10 @@ public class ModModelProvider extends FabricModelProvider
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TOKEN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DENSE_DIAMOND_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DENSE_DEEPSLATE_DIAMOND_ORE);
+
+
 
         blockStateModelGenerator.registerLog(ModBlocks.CHARRED_LOG).log(ModBlocks.CHARRED_LOG).wood(ModBlocks.CHARRED_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.CHARRED_LOG_STRIPPED).log(ModBlocks.CHARRED_LOG_STRIPPED).wood(ModBlocks.CHARRED_WOOD_STRIPPED);

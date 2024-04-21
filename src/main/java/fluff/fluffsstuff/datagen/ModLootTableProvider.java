@@ -12,6 +12,7 @@ import net.minecraft.block.Block;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
@@ -32,6 +33,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TOKEN_BLOCK);
         addDrop(ModBlocks.SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,2));
         addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE,1,3));
+
+        addDrop(ModBlocks.DENSE_DIAMOND_ORE, copperLikeOreDrops(ModBlocks.DENSE_DIAMOND_ORE, Items.DIAMOND,1,3));
+        addDrop(ModBlocks.DENSE_DEEPSLATE_DIAMOND_ORE, copperLikeOreDrops(ModBlocks.DENSE_DEEPSLATE_DIAMOND_ORE, Items.DIAMOND,1,4));
+        
         addDrop(ModBlocks.TOBACCO_FLOWER);
         addDrop(ModBlocks.TRELLIS);
         addPottedPlantDrops(ModBlocks.POTTED_TOBACCO_FLOWER);
