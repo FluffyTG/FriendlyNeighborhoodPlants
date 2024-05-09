@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "cereal_kits_strawberry",
+  "ingredients": [
+    {
+      "item": "fluffytgplants:cereal_kits"
+    },
+    {
+      "item": "fluffytgplants:bowl_o_strawberry"
+    },
+    {
+      "item": "fluffytgplants:bowl_o_strawberry"
+    },
+    {
+      "item": "fluffytgplants:bowl_o_strawberry"
+    }
+  ],
+  "result": {
+    "item": "fluffytgplants:cereal_kits_strawberry",
+    "count": 3
+  }
+}

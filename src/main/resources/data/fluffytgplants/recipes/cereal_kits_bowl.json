@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "cereal_kits_bowl",
+  "ingredients": [
+    {
+      "item": "fluffytgplants:cereal_kits"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "fluffytgplants:cereal_kits_bowl",
+    "count": 3
+  }
+}

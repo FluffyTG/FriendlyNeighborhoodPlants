@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_milk_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fluffytgplants:bowl_o_strawberry"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fluffytgplants:cereal_kits_strawberry_bowlway"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_milk_bowl",
+      "has_the_recipe1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fluffytgplants:cereal_kits_strawberry_bowlway"
+    ]
+  },
+  "sends_telemetry_event": false
+}

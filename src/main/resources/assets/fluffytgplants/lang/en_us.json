@@ -1,0 +1,77 @@
+{
+  "item.fluffytgplants.smiletoken": "Smile Token",
+  "item.fluffytgplants.frowntoken": "Frown Token",
+  "block.fluffytgplants.token_block": "Token Block",
+
+  "block.fluffytgplants.sapphire_ore": "Sapphire Ore",
+  "block.fluffytgplants.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.fluffytgplants.sapphire_block": "Sapphire Block",
+  "item.fluffytgplants.sapphire": "Sapphire",
+  "item.fluffytgplants.sapphire_head_pick": "Sapphire Pickaxe Head",
+
+  "item.fluffytgplants.tobacco_seeds": "Tobacco Seeds",
+  "item.fluffytgplants.tobacco_leaf": "Tobacco Leaf",
+  "block.fluffytgplants.tobacco_flower": "Tobacco Flower",
+  "item.fluffytgplants.tobacco_leaf_cured": "Cured Tobacco Leaf",
+  "item.fluffytgplants.moist_tobacco_leaf_cured": "Moist Cured Tobacco Leaf",
+  "item.fluffytgplants.crushed_tobacco": "Crushed Tobacco",
+  "item.fluffytgplants.tobacco_stick": "Tobacco Stick",
+
+  "item.fluffytgplants.cookie": "Cookie",
+  "item.fluffytgplants.skewer": "Skewer",
+
+  "item.fluffytgplants.cornbread": "Cornbread",
+  "item.fluffytgplants.grits": "Grits",
+  "item.fluffytgplants.fufu": "Fufu",
+  "item.fluffytgplants.corn_chili_lime": "Chili Lime Corn",
+  "item.fluffytgplants.creamed_corn": "Creamed Corn",
+  "item.fluffytgplants.cereal_kits": "Kits Cereal",
+
+  "item.fluffytgplants.tomato_skewer": "Tomato Skewer",
+  "item.fluffytgplants.tomato_salad": "Tomato Salad",
+  "item.fluffytgplants.tomato_soup": "Tomato Soup",
+  "item.fluffytgplants.tomato_puree": "Tomato Puree",
+  "item.fluffytgplants.fried_tomato": "Fried Tomato",
+
+  "item.fluffytgplants.strawberry_jam": "Strawberry Jam",
+  "item.fluffytgplants.strawberry_milk_bucket": "Strawberry Milk Bucket",
+  "item.fluffytgplants.strawberry_ice_cream": "Tobacco Strawberry Ice Cream",
+  "item.fluffytgplants.strawberry_parfait": "Strawberry Parfait",
+  "item.fluffytgplants.chocolate_strawberries": "Chocolate Covered Strawberries",
+
+
+  "item.fluffytgplants.cannabis": "Cannabis",
+  "item.fluffytgplants.hemp_seeds": "Hemp Seeds",
+
+  "item.fluffytgplants.tomato": "Tomato",
+  "item.fluffytgplants.tomato_seeds": "Tomato Seeds",
+
+  "item.fluffytgplants.corn": "Corn",
+  "item.fluffytgplants.corn_seeds": "Corn Seeds",
+
+  "item.fluffytgplants.strawberry": "Strawberry",
+  "item.fluffytgplants.strawberry_seeds": "Strawberry Seeds",
+
+  "block.fluffytgplants.trellis": "Trellis",
+
+  "item.fluffytgplants.hops": "Hops",
+  "item.fluffytgplants.hops_seeds": "Hops Seeds",
+
+  "item.fluffytgplants.sapphire_temppick": "Sapphire Temp Pick",
+
+  "block.fluffytgplants.charred_sapling": "Charred Sapling",
+  "block.fluffytgplants.charred_leaves": "Charred Leaves",
+  "block.fluffytgplants.charred_log": "Charred Log",
+  "block.fluffytgplants.charred_wood": "Charred Wood",
+  "block.fluffytgplants.charred_planks": "Charred Planks",
+  "block.fluffytgplants.charred_log_stripped": "Stripped Charred Log",
+  "block.fluffytgplants.charred_wood_stripped": "Stripped Charred Wood",
+
+
+  "itemgroup.fluffytgplants": "Fluff's Stuff!",
+
+  "effect.fluffytgplants.smoked": "Smoked",
+  "effect.fluffytgplants.frail": "Frail",
+  "effect.fluffytgplants.coughing_fit": "Coughing Fit",
+  "sounds.fluffytgplants.cough": "Player Coughs"
+}

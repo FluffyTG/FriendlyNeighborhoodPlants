@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.85,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "fluffytgplants:sapphire_ore"
+  },
+  "result": "fluffytgplants:sapphire"
+}

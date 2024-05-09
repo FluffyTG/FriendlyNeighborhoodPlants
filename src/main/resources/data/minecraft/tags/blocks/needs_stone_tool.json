@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fluffsstuff:token_block"
+    "fluffytgplants:token_block",
+    "fluffytgplants:hemp_crop"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 60,
+  "experience": 0.95,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "fluffytgplants:sapphire_ore"
+  },
+  "result": "fluffytgplants:sapphire"
+}

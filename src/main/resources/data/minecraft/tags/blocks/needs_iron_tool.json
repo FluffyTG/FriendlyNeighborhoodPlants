@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "fluffsstuff:token_block",
-    "fluffsstuff:dense_diamond_ore",
-    "fluffsstuff:dense_deepslate_diamond_ore"
+    "fluffytgplants:token_block",
+    "fluffytgplants:dense_diamond_ore",
+    "fluffytgplants:dense_deepslate_diamond_ore"
   ]
 }

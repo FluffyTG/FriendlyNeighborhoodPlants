@@ -1,7 +1,7 @@
-// 1.20.1	2024-04-21T01:10:51.650733	Fluff's Stuff/World Gen
+// 1.20.1	2024-05-08T15:50:48.037242	Fluff's Stuff/World Gen
 48c3c4293563730851c404d89cbcc23c5afbf0f2 data\fluffsstuff\worldgen\configured_feature\dense_deepslate_diamond_ore.json
-f635659648a874941a93a02873d3aa4e1a2ed5d9 data\fluffsstuff\worldgen\placed_feature\charred_placed.json
 b8d910105ad5f4e292fa8dc83bb41c0201a76fce data\fluffsstuff\worldgen\placed_feature\end_sapphire_ore_placed.json
+f635659648a874941a93a02873d3aa4e1a2ed5d9 data\fluffsstuff\worldgen\placed_feature\charred_placed.json
 df0849225a50b21f28eda628c47ae9b4763e756e data\fluffsstuff\worldgen\configured_feature\sapphire_ore.json
 2e5d04e2cb923b66c7a34b44c7afb74e93aa1ac3 data\fluffsstuff\worldgen\placed_feature\sapphire_ore_placed.json
 b085630854a6ca1f1ca18c601c4a21e60a618ba0 data\fluffsstuff\worldgen\configured_feature\deepslate_sapphire_ore.json
@@ -9,5 +9,5 @@ ccb481cf1931feecb722df1ff1c8ebb2798e3609 data\fluffsstuff\worldgen\configured_fe
 5073c8eb04142db60686ffc5c4f53bd5131d555f data\fluffsstuff\worldgen\placed_feature\dense_diamond_ore_placed.json
 9c017a8dddca9b84200d57b80ecef84bd8a30a57 data\fluffsstuff\worldgen\placed_feature\rare_crops_placed.json
 74cd390287a17b34d9f268df4ae231a88c015597 data\fluffsstuff\worldgen\placed_feature\dense_deepslate_diamond_ore_placed.json
-006b2eaa9b07fcd7b0bfcd93354bb96fe8c87ea6 data\fluffsstuff\worldgen\configured_feature\charred.json
+08b2d4473a798ba61f3aed63054fedd8c816c005 data\fluffsstuff\worldgen\configured_feature\charred.json
 5866823cf1558e8ccd64f7ac5690affbe22f832e data\fluffsstuff\worldgen\configured_feature\dense_diamond_ore.json

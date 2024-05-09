@@ -1,11 +1,11 @@
-// 1.20.1	2024-04-21T01:10:51.6517347	Fluff's Stuff/Block Loot Tables
+// 1.20.1	2024-05-08T15:50:48.038269	Fluff's Stuff/Block Loot Tables
 59316779dd7a453be92a70458a64bac163325bf9 data\fluffsstuff\loot_tables\blocks\deepslate_sapphire_ore.json
 c4cde04289ed7c8bb4c563d4f1185fdca293cd48 data\fluffsstuff\loot_tables\blocks\trellis.json
 059dead5bc67cb489a6af90bf222a3b25792bbb4 data\fluffsstuff\loot_tables\blocks\strawberry_crop.json
-133c55182eb4a4f6ccef85b449037aac1f8de9b2 data\fluffsstuff\loot_tables\blocks\cannabis_crop.json
 a101f82890304ce702635191a11b960cce9e02dc data\fluffsstuff\loot_tables\blocks\dense_deepslate_diamond_ore.json
 2475266efe8b9b77a7f43350962397b1341366be data\fluffsstuff\loot_tables\blocks\charred_wood_stripped.json
 5fb19a4113320648b23c685b5ba53b338446b36b data\fluffsstuff\loot_tables\blocks\corn_crop.json
+451390304a3fb86bb3a6587ee216299d07a2a19a data\fluffsstuff\loot_tables\blocks\hemp_crop.json
 0a5b1829a1042194f0fe3ff5aa564afafd98b7b2 data\fluffsstuff\loot_tables\blocks\tomato_crop.json
 2057fe976d0d3afa885c53ae71a9e1d9a707d644 data\fluffsstuff\loot_tables\blocks\sapphire_ore.json
 a9f168e57e4db1a3a5afa9884fd7392e71b0c92c data\fluffsstuff\loot_tables\blocks\charred_wood.json

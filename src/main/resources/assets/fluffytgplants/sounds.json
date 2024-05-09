@@ -1,0 +1,9 @@
+{
+  "coughing_fit": {
+    "subtitle": "sounds.fluffsstuff.cough",
+    "sounds": [
+      "fluffsstuff:cough",
+      "fluffsstuff:cough2"
+    ]
+  }
+}
